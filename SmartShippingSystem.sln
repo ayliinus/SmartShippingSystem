@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShipping.Application", "SmartShipping.Application\SmartShipping.Application.csproj", "{ED65C62C-2F41-4F93-A297-6AB4E9C67227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShipping.Domain", "SmartShipping.Domain\SmartShipping.Domain.csproj", "{931206D9-9027-497E-9B8E-C60D5D27EDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShipping.Infrastructure", "SmartShipping.Infrastructure\SmartShipping.Infrastructure.csproj", "{57FB1FB5-AE1A-4D3E-924D-8EA34751066D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShipping.Persistence", "SmartShipping.Persistence\SmartShipping.Persistence.csproj", "{7C770E08-1168-46E8-AD46-D8AD13DA88EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShipping.Shared", "SmartShipping.Shared\SmartShipping.Shared.csproj", "{F31324FE-35CC-47A7-BAA5-A93735B8B0E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShipping.API", "SmartShipping.API\SmartShipping.API.csproj", "{126EF823-4FA9-4993-8168-679ED5A167DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED65C62C-2F41-4F93-A297-6AB4E9C67227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED65C62C-2F41-4F93-A297-6AB4E9C67227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED65C62C-2F41-4F93-A297-6AB4E9C67227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED65C62C-2F41-4F93-A297-6AB4E9C67227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931206D9-9027-497E-9B8E-C60D5D27EDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931206D9-9027-497E-9B8E-C60D5D27EDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931206D9-9027-497E-9B8E-C60D5D27EDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931206D9-9027-497E-9B8E-C60D5D27EDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FB1FB5-AE1A-4D3E-924D-8EA34751066D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FB1FB5-AE1A-4D3E-924D-8EA34751066D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FB1FB5-AE1A-4D3E-924D-8EA34751066D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FB1FB5-AE1A-4D3E-924D-8EA34751066D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C770E08-1168-46E8-AD46-D8AD13DA88EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C770E08-1168-46E8-AD46-D8AD13DA88EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C770E08-1168-46E8-AD46-D8AD13DA88EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C770E08-1168-46E8-AD46-D8AD13DA88EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31324FE-35CC-47A7-BAA5-A93735B8B0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31324FE-35CC-47A7-BAA5-A93735B8B0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31324FE-35CC-47A7-BAA5-A93735B8B0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31324FE-35CC-47A7-BAA5-A93735B8B0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126EF823-4FA9-4993-8168-679ED5A167DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126EF823-4FA9-4993-8168-679ED5A167DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126EF823-4FA9-4993-8168-679ED5A167DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126EF823-4FA9-4993-8168-679ED5A167DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF766112-2BB1-4D2B-9AED-39B881099821}
+	EndGlobalSection
+EndGlobal
